@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <color name="actionbar_text">#FFFFFF</color>
+    <color name="actionbar_background">#6E3B00</color>
+    <color name="appBackground">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="linkcolor">#0004FF</color>
+    <color name="filterTileColor">#6E3B00</color>
+    <color name="drawerColor">#E56E3B00</color>
+    <color name="drawerItemColor">#FFFFFF</color>
+    <color name="drawerDividerColor">#36C3FF</color>
+    <color name="gridItemText">#FFFFFF</color>
+    
+
+</resources>

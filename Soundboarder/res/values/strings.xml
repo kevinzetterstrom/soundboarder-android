@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sound Boarder</string>
+    <string name="action_about">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Soundboarder</string>
+    <string name="drawer_close">Soundboarder</string>
+    <string name="version">Version</string>
+    <string name="versionNum">1.0.1</string>
+    <string name="email_support">dynastymobile@gmail.com</string>
+
+    <string-array name="boards_array">
+        <item>Arnold Schwarzenegger</item>
+        <item>Ben Stiller - Dodgeball</item>
+        <item>Borat</item>
+        <item>Charlie Sheen</item>
+        <item>Family Guy</item>
+        <item>Kramer</item>
+        <item>Napolean Dynamite</item>
+        <item>Samuel Jackson</item>
+        <item>ShamWow - Vince</item>
+        <item>Super Troopers</item>
+        <item>Tony Soprano</item>
+    </string-array>
+
+</resources>

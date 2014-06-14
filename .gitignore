@@ -1,0 +1,6 @@
+bin
+.metadata
+*~
+target/
+.settings
+*.ogg

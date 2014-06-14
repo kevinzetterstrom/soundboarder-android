@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/griditem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/soundboard_button" >
+
+        <TextView
+            android:id="@+id/griditemtext"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:textColor="@color/gridItemText"
+            android:textSize="@dimen/button_text"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>
