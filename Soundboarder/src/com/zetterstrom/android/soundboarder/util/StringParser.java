@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.zetterstrom.android.soundboarder.Util;
+package com.zetterstrom.android.soundboarder.util;
 
 public class StringParser {
 	public static String splitCamelCase(String fileName) {

@@ -23,9 +23,9 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 import com.zetterstrom.android.soundboarder.MainActivity;
-import com.zetterstrom.android.soundboarder.Util.StringParser;
 import com.zetterstrom.android.soundboarder.adapter.SoundAdapter;
 import com.zetterstrom.android.soundboarder.dto.Sound;
+import com.zetterstrom.android.soundboarder.util.StringParser;
 import com.zetterstrom.android.soundboarder.R;
 
 import android.app.AlertDialog;

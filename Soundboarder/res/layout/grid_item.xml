@@ -20,6 +20,7 @@
             android:focusableInTouchMode="false"
             android:padding="5dp"
             android:singleLine="false"
+            android:gravity="center"
             android:textColor="@color/gridItemText"
             android:textSize="@dimen/button_text"
             android:textStyle="bold" />
