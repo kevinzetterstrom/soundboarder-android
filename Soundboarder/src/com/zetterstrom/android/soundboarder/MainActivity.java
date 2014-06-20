@@ -158,13 +158,7 @@ public class MainActivity extends ActionBarActivity {
         // position
         mPosition = position;
         Fragment fragment;
-        // if (mPosition == 0) {
-        // fragment = new ArnoldFragment();
-        // } else if (mPosition == 1) {
-        // fragment = new NapoleanDynamiteFragment();
-        // } else {
         fragment = new SoundboardFragment();
-        // }
         Bundle args = new Bundle();
         args.putInt(SoundboardFragment.ARG_BOARD_NUMBER, position);
         fragment.setArguments(args);
