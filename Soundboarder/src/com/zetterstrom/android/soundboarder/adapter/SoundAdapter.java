@@ -28,31 +28,31 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 public class SoundAdapter extends ArrayAdapter<Sound> {
-	private ArrayList<Sound> mItems;
-	private Context mContext = null;
+    private ArrayList<Sound> mItems;
+    private Context mContext = null;
 
-	public SoundAdapter(Context context, int textViewResourceId,
-			ArrayList<Sound> items) {
-		super(context, textViewResourceId, items);
-		this.mItems = items;
-		this.mContext = context;
-	}
+    public SoundAdapter(Context context, int textViewResourceId,
+            ArrayList<Sound> items) {
+        super(context, textViewResourceId, items);
+        this.mItems = items;
+        this.mContext = context;
+    }
 
-	@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
-		View v = convertView;
-		if (v == null) {
-			LayoutInflater vi = (LayoutInflater) mContext
-					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			v = vi.inflate(R.layout.grid_item, null);
-		}
-		Sound s = mItems.get(position);
-		if (s != null) {
-			TextView description = (TextView) v.findViewById(R.id.griditemtext);
-			if (description != null) {
-				description.setText(s.getDescription());
-			}
-		}
-		return v;
-	}
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        View v = convertView;
+        if (v == null) {
+            LayoutInflater vi = (LayoutInflater) mContext
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            v = vi.inflate(R.layout.grid_item, null);
+        }
+        Sound s = mItems.get(position);
+        if (s != null) {
+            TextView description = (TextView) v.findViewById(R.id.griditemtext);
+            if (description != null) {
+                description.setText(s.getDescription());
+            }
+        }
+        return v;
+    }
 }
