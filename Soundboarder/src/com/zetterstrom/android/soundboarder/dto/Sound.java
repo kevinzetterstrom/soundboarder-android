@@ -18,7 +18,6 @@ package com.zetterstrom.android.soundboarder.dto;
 public class Sound {
     private String mDescription = "";
     private String mAssetDescription = "";
-    private int mSoundResourceId = -1;
 
     public void setDescription(String description) {
         mDescription = description;
@@ -36,12 +35,5 @@ public class Sound {
         return mAssetDescription;
     }
 
-    public void setSoundResourceId(int id) {
-        mSoundResourceId = id;
-    }
-
-    public int getSoundResourceId() {
-        return mSoundResourceId;
-    }
 
 }

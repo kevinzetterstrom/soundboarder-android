@@ -141,11 +141,18 @@ public class SoundboardFragment extends Fragment {
 
     public boolean saveAsNotification(Sound sound) {
         byte[] buffer = null;
-        InputStream fIn = getActivity().getBaseContext().getResources()
-                .openRawResource(sound.getSoundResourceId());
-        int size = 0;
+        AssetFileDescriptor afd;
+        try {
+            afd = getActivity().getAssets().openFd(sound.getAssetDescription());
+        } catch (IOException e1) {
+            e1.printStackTrace();
+            return false;
+        }
+        
 
         try {
+            InputStream fIn = afd.createInputStream();
+            int size = 0;
             size = fIn.available();
             buffer = new byte[size];
             fIn.read(buffer);
